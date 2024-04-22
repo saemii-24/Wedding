@@ -37,6 +37,7 @@ const RAW_RUNTIME_STATE =
           ["@types/testing-library__jest-dom", "npm:6.0.0"],\
           ["classnames", "npm:2.5.1"],\
           ["craco-alias", "npm:3.0.1"],\
+          ["date-fns", "npm:3.6.0"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-prettier", "virtual:575f8f1a109fa31cbb504258578bdd88e787b12f4a69b3823ad15f2b432ac6086ad02edfcd4c70547c25ff2ff3518f3dec460d2fc943a88c294c70099808d222#npm:9.1.0"],\
           ["eslint-config-react-app", "virtual:575f8f1a109fa31cbb504258578bdd88e787b12f4a69b3823ad15f2b432ac6086ad02edfcd4c70547c25ff2ff3518f3dec460d2fc943a88c294c70099808d222#npm:7.0.1"],\
@@ -8130,6 +8131,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["date-fns", [\
+      ["npm:3.6.0", {\
+        "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/date-fns-npm-3.6.0-e59d980978-10c0.zip/node_modules/date-fns/",\
+        "packageDependencies": [\
+          ["date-fns", "npm:3.6.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["debug", [\
       ["npm:2.6.9", {\
         "packageLocation": "../../../AppData/Local/Yarn/Berry/cache/debug-npm-2.6.9-7d4cb597dc-10c0.zip/node_modules/debug/",\
@@ -13835,6 +13845,7 @@ const RAW_RUNTIME_STATE =
           ["@types/testing-library__jest-dom", "npm:6.0.0"],\
           ["classnames", "npm:2.5.1"],\
           ["craco-alias", "npm:3.0.1"],\
+          ["date-fns", "npm:3.6.0"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-prettier", "virtual:575f8f1a109fa31cbb504258578bdd88e787b12f4a69b3823ad15f2b432ac6086ad02edfcd4c70547c25ff2ff3518f3dec460d2fc943a88c294c70099808d222#npm:9.1.0"],\
           ["eslint-config-react-app", "virtual:575f8f1a109fa31cbb504258578bdd88e787b12f4a69b3823ad15f2b432ac6086ad02edfcd4c70547c25ff2ff3518f3dec460d2fc943a88c294c70099808d222#npm:7.0.1"],\
