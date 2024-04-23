@@ -7,10 +7,10 @@ const cx = classNames.bind(styles)
 
 export default function Vedio() {
   return (
-    <Section>
+    <Section className={cx('container')}>
       <video autoPlay loop muted poster="/assets/poster.jpg">
-        <source src="../assets/main.webm" type="video/webm" />
-        <source src="../../assets/main.mp4" type="video/mp4" />
+        <source src="/assets/main.webm" type="video/webm" />
+        <source src="/assets/main.mp4" type="video/mp4" />
       </video>
     </Section>
   )
