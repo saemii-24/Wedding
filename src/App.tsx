@@ -9,6 +9,7 @@ import Intro from '@components/sections/Intro'
 import Calendar from '@components/sections/Calendar'
 import Map from '@components/sections/Map'
 import Contact from '@components/sections/Contact'
+import AttendCountModal from '@components/AttendCountModal'
 
 import FullScreenMessage from '@shared/FullScreenMessage'
 
@@ -80,7 +81,7 @@ function App() {
       <Calendar date={date} />
       <Map location={location} />
       <Contact groom={groom} bride={bride} />
-      {JSON.stringify(wedding)}
+      <AttendCountModal wedding={wedding} />
     </div>
   )
 }

@@ -14,7 +14,7 @@ interface ModalProps {
   onLeftButtonClick: () => void
 }
 
-export function Modal({
+export default function Modal({
   open,
   title,
   body,
