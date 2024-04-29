@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Section from '@shared/Section'
 import styles from './ImageGallery.module.scss'
 import ImageViewer from '../ImageViewer/Index'
+import generateImageUrl from '@/utils/generateImageUrl'
 
 const cx = classNames.bind(styles)
 
@@ -32,8 +33,7 @@ export default function ImageGallery({ images }: { images: string[] }) {
                 handleSelectedImage(idx)
               }}
             >
-              <img src={src + '.jpg'} alt="이미지" />
-              {/* <picture>
+              <picture>
                 <source
                   srcSet={generateImageUrl({
                     filename: src,
@@ -50,7 +50,7 @@ export default function ImageGallery({ images }: { images: string[] }) {
                   })}
                   alt="이미지"
                 />
-              </picture> */}
+              </picture>
             </li>
           ))}
         </ul>
